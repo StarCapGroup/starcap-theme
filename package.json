@@ -1,0 +1,23 @@
+{
+  "name": "starcap-theme-dark",
+  "displayName": "StarCap Theme Dark",
+  "description": "O tema reflete ao visual da StarCap, trazendo conforto e beleza para o seu VsCode!",
+  "version": "1.0.0",
+  "publisher": "StarCap",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.118.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "StarCap Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/StarCap Theme Dark-color-theme.json"
+      }
+    ]
+  }
+}
