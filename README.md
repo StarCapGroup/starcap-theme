@@ -1,78 +1,84 @@
 # StarCap Dark Theme
 
-Tema escuro oficial da StarCap para Visual Studio Code, com cores neon vibrantes para alta produtividade.
+![Versão](https://img.shields.io/badge/version-1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-![StarCap Dark Theme](https://via.placeholder.com/800x450/0F1923/00E676?text=StarCap+Dark+Theme)
+Tema escuro profissional para Visual Studio Code, inspirado na identidade visual StarCap. Oferece sintaxe com alto contraste e acentos neon para melhorar a legibilidade e reduzir a fadiga visual durante longas sessões de desenvolvimento.
 
-## 🎨 Paleta de Cores
+## 📸 Preview
 
-| Cor | Hex | Uso |
-|-----|-----|-----|
-| **Blaze Dark** | `#0F1923` | Fundo principal do editor |
-| **Blaze Black** | `#05090C` | Status bar, title bar |
-| **Blaze Card** | `#1A242D` | Sidebar, cards, painéis |
-| **Neon Green** | `#00E676` | Funções, variáveis, sucesso |
-| **Neon Red** | `#FF003C` | Tags HTML, strings, erro |
-| **Neon Blue** | `#2979FF` | Keywords, números, destaque |
-| **Text White** | `#FFFFFF` | Texto principal |
-| **Text Gray** | `#9EA6AD` | Comentários, números de linha |
+>![alt text](image-1.png)
+
+## ✨ Principais características
+
+- Paleta escura com contrastes otimizados
+- Cores neon para destacar keywords, strings e chamadas de função
+- Suporte a linguagens populares: JavaScript, TypeScript, React, HTML, CSS e mais
+- Decorações Git e terminal com esquema coerente
+- Fácil personalização via arquivo de tema
 
 ## 🚀 Instalação
 
-### Método 1: Manual (Recomendado)
+### Instalação pelo Marketplace (recomendado)
 
-1. Clone ou baixe este repositório
-2. Copie a pasta `starcap-theme` para:
-   - **macOS/Linux**: `~/.vscode/extensions/`
-   - **Windows**: `%USERPROFILE%\.vscode\extensions\`
-3. Recarregue o VS Code (Cmd/Ctrl + Shift + P → "Developer: Reload Window")
-4. Selecione o tema: Cmd/Ctrl + K, Cmd/Ctrl + T → "StarCap Dark"
+1. Abra o Visual Studio Code
+2. Pesquise por "StarCap Dark" no Marketplace
+3. Clique em "Instalar" e selecione o tema nas Preferências → Tema de Cor
 
-### Método 2: Via Marketplace (em breve)
+> Caso o pacote ainda não esteja publicado, use a instalação manual abaixo.
+
+### Instalação manual
+
+1. Clone este repositório:
 
 ```bash
-ext install starcap.starcap-dark-theme
+git clone https://github.com/StarCapGroup/starcap-theme.git
 ```
 
-## ✨ Features
+2. Copie a pasta do tema para a pasta de extensões do VS Code:
 
-- ✅ Suporte completo para TypeScript, JavaScript, React, CSS, HTML
-- ✅ Cores otimizadas para reduzir fadiga visual
-- ✅ Syntax highlighting neon para melhor legibilidade
-- ✅ Interface escura com alto contraste
-- ✅ Terminal integrado com cores personalizadas
-- ✅ Git decorations com cores semânticas
+- macOS / Linux: `~/.vscode/extensions/`
+- Windows: `%USERPROFILE%\\.vscode\\extensions\\`
 
-## 🛠️ Desenvolvimento
+3. Recarregue o VS Code: `Developer: Reload Window`
+4. Selecione o tema: `Preferences: Color Theme` → `StarCap Dark`
 
-Se quiser modificar o tema:
+## 🛠️ Customização
 
-1. Clone o repositório
-2. Edite `themes/starcap-dark.json`
-3. Recarregue o VS Code para ver as mudanças
-4. Commit e faça PR!
+- Arquivo de tema principal: `themes/StarCap Theme Dark-color-theme.json`
+- Para ajustar cores, edite o arquivo acima e recarregue o VS Code.
+- Sugestão: mantenha um branch de desenvolvimento para mudanças e use PRs para revisão.
 
-## 📝 Changelog
+## ✅ Boas práticas de uso
 
-### Version 1.0.0
-- 🎉 Release inicial
-- Cores StarCap implementadas
-- Suporte para todas as linguagens principais
+- Use o tema em monitores com correção de cor para melhores resultados
+- Combine com fontes de alta legibilidade (ex.: Fira Code, JetBrains Mono)
+- Ajuste o brilho do terminal para evitar reflexos excessivos
 
-## 🤝 Contribuindo
+## 🧩 Contribuindo
 
-Contribuições são bem-vindas! Por favor, abra uma issue ou PR.
+Contribuições são bem-vindas. Para contribuir:
+
+1. Fork o repositório
+2. Crie uma branch com a sua feature: `git checkout -b feat/minha-melhoria`
+3. Faça commits pequenos e claros
+4. Abra um Pull Request descrevendo a mudança
+
+Por favor, abra issues para bugs ou sugestões de melhoria.
+
+## 📜 Changelog (resumo)
+
+- 1.0.0 — Lançamento inicial com a paleta StarCap e suporte para principais linguagens
 
 ## 📄 Licença
 
 MIT © StarCap
 
-## 🌐 Links
+## 🔗 Links úteis
 
-- [Website StarCap](https://starcap.com.br)
-- [Reportar Bug](https://github.com/starcap/vscode-theme/issues)
-- [Documentação VS Code Themes](https://code.visualstudio.com/api/extension-guides/color-theme)
+- Website: https://starcap.com.br
+- VS Code Theme docs: https://code.visualstudio.com/api/extension-guides/color-theme
 
 ---
+
 
 Feito com ❤️ pela equipe StarCap
